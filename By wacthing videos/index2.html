@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfuction()">click me</button>
+    <h1>
+        Delete system
+    </h1>
+    <input type="text" id="inputFild">
+    <input type="button" id="inputBtn">
+    <script>
+        
+        // function largernumber(number){
+
+        //     for(let i = 0; i<number.length; i++;){
+        //         const elemnt=number[i];
+        //         console.log(elemnt);
+        //     }
+        // }
+        // let ages=[25,24,23,15,45];
+        // let result=largernumber(ages);
+        // console.log("hello wold")
+        
+// function myfuction(){
+//     console.log("green color text");
+// }
+// class 20
+document.getElementById('inputFild').addEventListener('focus',function(){
+    document.body.style.backgroundColor='green';
+    console.log('hle');
+})
+document.getElementById('inputFild').addEventListener('blur',function(){
+    document.body.style.backgroundColor='white';
+})
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.heading{
+    /* background-color: #df1616; */
+    width: 100%;
+    height: 150px;
+    /* text-align: center; */
+}
+.heading h1{
+    text-align: center;
+    padding: 30px 0px;
+}
+.heading p{
+    text-align: center;
+}
+.heading h1{
+    font-size: 3rem;
+
+}
+.heading p{
+    font-size: 1.7rem;
+
+}
+.heading p span{
+    background-color: black;
+    color: white;
+
+}
+/* end heading */
+
+.cardsection{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px
+}
+.twocard{
+    width: 65%;
+    margin-right: 50px;
+}
+.cardone{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 50px 0px;
+    /* background-color: #a81a1a; */
+    box-shadow: 15px 10px rgb(250, 245, 245);
+}
+.card-one-cont{
+    padding: 30px;
+  
+}
+.imgw{
+    width: 100%;
+    height: 250px;
+}
+.card-one-cont p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.op{
+    opacity: .5;
+}
+.btn-com{
+
+}
+.btn-com button{
+    padding:20px;
+}
+.left{
+    background-color: black;
+    color: azure;
+    /* display: inline-block;
+    text-align: right; */
+   margin-left: 90%;
+}
+/* rightsitecard start */
+.rightSiteCard{
+    width: 30%;
+}
+.right-frist-card{
+    box-shadow:15px 10px #f7f1f1;
+    width: 100%;
+}
+.right-frist-card img{
+    width: 100%;
+}
+.right-frist-card h1,p{
+    text-align: justify;
+
+}
+.right-frist-card h1{
+    font-size: 3rem;
+}
+.right-frist-card p{
+    font-size: 1.3rem;
+}
