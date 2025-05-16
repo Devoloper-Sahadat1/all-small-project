@@ -1,0 +1,1 @@
+tommorow will test react and will add tailwind and daiysiui and will fetch json and with react router dom and componets if posible with authtication system;
